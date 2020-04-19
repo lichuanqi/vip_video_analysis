@@ -111,15 +111,18 @@ include "./config.php";
 </jjgg>
 
 <!-- 底部 -->
-<div class="panel-body" style="text-align: center;">
-<div class="container-fluid">
-
-<b>友情链接：</b>
- <?php echo $config['youlian']?>
-<br>
-<span class="copyright">Copyright 2017 Collect from <a href="http://www.dlc618.com" title="一艘大轮船" target="_blank">一艘大轮船</a></span>
-</div>
-</div>
+<footer class="footer" style="background: #f8f8f8;margin-top: 30px;" >
+	<div class="panel-body" style="text-align: center;">
+	<div class="container-fluid">
+	<b>友情链接：</b> <?php echo $config['youlian']?>
+	<hr>
+    <p>本站提供的电影和电视剧均收集于各大视频网站,不提供影片资源存储,也不参与录制、上传。</p>
+    <p>若本站收录的节目无意侵犯了贵司版权，请来信,我们会及时处理和回复。</p>
+    <p>管理员邮箱：lc@dlc618.com</p>
+	<span class="copyright">Copyright 2020 <a href="http://www.dlc618.com" title="一艘大轮船" target="_blank">一艘大轮船</a>版权所有</span>
+	</div>
+	</div>
+</footer>
 <?php echo $config['tongji']?>
 
 </body>
